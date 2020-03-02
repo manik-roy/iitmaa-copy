@@ -1,0 +1,115 @@
+.event-details-main-aria {
+  background-color: whitesmoke;
+}
+.event-title {
+  margin-top: 25px;
+  background-color: #0f4565;
+}
+
+.event-title h2 {
+  font-weight: 300;
+  text-align: center;
+  margin: 25px 0;
+  padding-left: 150px;
+  padding-top: 25px;
+}
+
+.event-title span.event-time {
+  text-align: center;
+  display: block;
+}
+
+.event-details-img {
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  background-color: #fff;
+  margin-top: -100px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card-img img {
+  width: 100%;
+}
+
+.upcoming-event-btn {
+  background: #927844;
+  padding: 7px 25px;
+  color: #fff;
+  border-radius: 25px;
+  margin-bottom: 6px;
+  display: inline-block;
+}
+
+.card-text-content .upcoming-event p {
+  background-color: #aba69d;
+}
+
+.card-text-content h2 {
+  text-align: center;
+  font-size: 23px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.card-text-content a.register-event {
+  text-transform: uppercase;
+  display: block;
+  width: 110px;
+  text-align: center;
+  line-height: 20px;
+  margin: 0 auto;
+}
+
+/* event right side */
+
+.event-detail-contaienr .event-address p  {
+  font-weight: 300;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.event-detail-contaienr .event-address p i.fa-map-marker-alt {
+  padding-right: 4px;
+    padding-top: 50px;
+    color: #f15025;
+}
+.event-address-title {
+  padding-bottom: 15px;
+  /* padding-right: 255px; */
+  border-bottom: 1px solid #ccc;
+  text-transform: capitalize !important;
+}
+.event-details p.title{
+  font-size: 18px;
+    font-weight: 300;
+}
+.event-details p i.fa-file-alt{
+  color: #f15025;
+  padding-right: 7px;
+}
+.event-details p.card-detail{
+  padding: 0 25px;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 300;
+  color: #1d1e1f;
+}
+.event-details .login-alet, .no-post{
+  
+  width: 80%;
+    display: block;
+    margin: 0 auto;
+    background-color: #0f4565;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+.event-details .login-alet p{
+ color: #fff;
+ font-weight: 400;
+ font-size: 16px;
+}
+.no-post {
+  background-color: rgb(206, 205, 205);
+}
+.no-post p{
+ padding-top: 10px;
+}

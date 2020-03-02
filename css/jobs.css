@@ -1,0 +1,21 @@
+.job-title h2 {
+  font-size: 25px;
+}
+
+.company-title h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.location p {
+  margin-bottom: 0;
+}
+.job-icon p {
+  margin-bottom: 0;
+}
+.job-icon i {
+  margin-right: 7px;
+}
+.event-card-footer {
+  padding-bottom: 40px;
+    padding-top: 5px;
+}

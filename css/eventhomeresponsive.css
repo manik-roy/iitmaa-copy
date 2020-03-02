@@ -1,0 +1,80 @@
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .event-card-details-aria {
+    padding-left: 0;
+  }
+}
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .main-menu ul li a {
+    font-size: 14px;
+  }
+  .signup-home {
+    float: right;
+    line-height: 18px;
+  }
+  .signupmainaria {
+    padding: 0;
+  }
+  .event-card-details-aria {
+    padding-left: 0;
+  }
+}
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .event-card-details {
+    padding-top: 21px;
+    margin-left: 15px;
+  }
+  .card-footer-btn {
+    margin-right: 25px;
+  }
+  .event-card-details .card-navbar p {
+    padding-top: 5px;
+  }
+}
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+  .event-card-details {
+    padding-top: 21px;
+    margin-left: 15px;
+  }
+  .event-card-details-aria {
+    padding: 0;
+    margin-left: 25px;
+  }
+  .card-footer-btn {
+    margin-right: 25px;
+  }
+  .event-card-details .card-navbar p {
+    padding-top: 5px;
+  }
+  .event-card-details .card-navbar span {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+  }
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 450px;
+  }
+  .event-card-details .card-navbar p {
+    padding-top: 5px;
+  }
+  .event-card-details .card-navbar span {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+  }
+}

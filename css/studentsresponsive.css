@@ -1,0 +1,68 @@
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+ 
+}
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .main-menu ul li a {
+    font-size: 14px;
+  }
+  .signup-home {
+    float: right;
+    line-height: 18px;
+  }
+  .signupmainaria {
+    padding: 0;
+  }
+
+}
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .single-student-card img {
+    width: 35%;
+    border-radius: 75%;
+    border: 3px solid #fff;
+  }
+  .student-details-left {
+    display: none !important;
+  }
+}
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+  .single-student-card img {
+    width: 35%;
+    border-radius: 75%;
+    border: 3px solid #fff;
+  }
+  .student-details-left {
+    display: none !important;
+  }
+  .serch-btn-aria{
+    position: absolute;
+    bottom: -42px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+  }
+  .students-serch-bottom {
+    margin-top: 45px;
+}
+  
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+

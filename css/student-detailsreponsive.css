@@ -1,0 +1,70 @@
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+ 
+}
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .main-menu ul li a {
+    font-size: 14px;
+  }
+  .signup-home {
+    float: right;
+    line-height: 18px;
+  }
+  .signupmainaria {
+    padding: 0;
+  }
+
+  .student-bio {
+    padding-left: 23%;
+    padding-top: 30px;
+  }
+
+}
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .single-student-card img {
+    width: 35%;
+    border-radius: 75%;
+    border: 3px solid #fff;
+  }
+  .student-details-left {
+    display: none !important;
+  }
+  .student-bio {
+    padding-left: 23%;
+    padding-top: 30px;
+  }
+}
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+  .single-student-card img {
+    width: 35%;
+    border-radius: 75%;
+    border: 3px solid #fff;
+  }
+  .student-details-left {
+    display: none !important;
+  }
+  .student-bio {
+    padding-left: 0%;
+    padding-top: 30px;
+  }
+  
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .student-bio {
+    padding-left: 20%;
+    padding-top: 30px;
+  }
+}

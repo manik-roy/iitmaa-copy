@@ -1,0 +1,74 @@
+.st-info {
+  position: relative;
+  font-weight: 700;
+}
+
+.st-info::after {
+  content: ":";
+  position: absolute;
+  top: 0;
+  right: -20px;
+}
+
+.student-deails-right {
+  background-color: #a9b1b6;
+}
+
+.top-bg-single-student-card {
+  height: 70px;
+  padding-top: 40px;
+  background-color: hotpink;
+  margin-bottom: -40px;
+}
+
+.single-student-card-aria {
+  background-color: #0f4565;
+  transition: 1s;
+  padding-bottom: 25px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.single-student-card img {
+  width: 50%;
+  border-radius: 75%;
+  border: 3px solid #fff;
+}
+
+.single-student-card h3 {
+  padding-top: 10px;
+  font-size: 18px;
+  color: #fff;
+  transition: 1s;
+}
+
+.single-student-card h4 {
+  font-size: 14px;
+  color: #fff;
+  transition: 1s;
+  font-weight: 300;
+  padding-bottom: 15px;
+}
+
+.single-student-card-aria:hover {
+  background-color: rgb(190, 190, 190) !important;
+  color: #000 !important;
+}
+
+.single-student-card-aria:hover>.single-student-card h3 {
+  color: #000 !important;
+}
+
+.single-student-card-aria:hover>.single-student-card h4 {
+  color: #000 !important;
+}
+
+.student-card-right {
+  padding: 0 50px 0 50px;
+}
+
+.st-details h2 {
+  color: #fff;
+  background: tomato;
+  padding: 30px 0px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}

@@ -1,0 +1,124 @@
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .feture-con {
+        padding: 0 7px;
+    }
+    .event1, .event2{
+        padding-right: 0 !important;
+    }
+}
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li a {
+        font-size: 14px;
+    }
+    .signup-home {
+        float: right;
+        line-height: 18px;
+    }
+    .signupmainaria {
+        padding: 0;
+    }
+    .feture-text {
+        padding: 25px 12px 25px 25px;
+    }
+    .single-event {
+        margin: 0;
+    }
+    .phone-aria {
+        line-height: 18px;
+    }
+    .event1, .event2{
+        padding-right: 0 !important;
+    }
+}
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .socil-links ul li a {
+        margin: 5px;
+    }
+    .text-content h2 {
+        text-align: center;
+    }
+    .pure-material-textfield-standard {
+        width: 90%;
+    }
+    .slider-aria {
+        margin: 0;
+    }
+    .map-details span {
+        font-size: 12px !important;
+    }
+    .news-time {
+        margin-top: 0 !important;
+        padding-top: 6px;
+    }
+    .news-text p {
+        font-size: 15px;
+        margin-top: 8px !important;
+    }
+    .feture-con {
+        margin-top: 15px;
+    }
+    .feture-container1 {
+        padding-left: 0 !important;
+    }
+    .single-feture {
+        margin: 10px 0;
+    }
+    .event1{
+        padding-right: 0 !important;
+    }
+}
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+    .single-feture {
+        margin: 10px 0;
+    }
+    .single-gallery-img {
+        max-width: 96%;
+    }
+    .footer-nav {
+        flex-wrap: wrap;
+    }
+    .pure-material-textfield-standard {
+        width: 90%;
+    }
+    .feture-con {
+        padding: 0 !important;
+        margin-top: 15px;
+    }
+    .feture-container1 {
+        margin-top: 15px;
+    }
+    .gallery {
+        margin: 0 !important;
+    }
+    .slider-right {
+        margin-bottom: 15px;
+    }
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px;
+    }
+    .single-gallery-img {
+        max-width: 96%;
+    }
+    .gallery {
+        margin: 0 !important;
+    }
+    
+}
+
+/* <button type="submit" class="signup contact-signupbtn">SUBMIT</button> */

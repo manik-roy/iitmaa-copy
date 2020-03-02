@@ -1,0 +1,124 @@
+body {
+  color: rgb(117, 117, 117) !important;
+}
+
+.event-home-aria {
+  background-color: whitesmoke;
+}
+
+.event-cat-title {
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: -15px;
+}
+
+/* evemt nav */
+
+.event-nav ul li {
+  background: #e0e0e0;
+  margin: 8px 0px;
+  width: 100%;
+}
+
+.event-cat {
+  padding: 15px 14px 0px 12px;
+  margin-left: 20px;
+}
+
+.event-cat p {
+  font-size: 16px;
+  color: #191111;
+}
+
+.catagory-sub {
+  background-color: whitesmoke!important;
+  margin-left: 0;
+  padding-left: 39px;
+}
+
+.subcatagory li a .catagory-sub p:hover {
+  color: tomato !important;
+}
+
+/* event content */
+
+.single-event-card {
+  background: #fff;
+  padding: 18px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  padding-top: 20px;
+}
+
+.event-card-img {}
+
+.event-card-details .card-navbar {
+  margin-right: 30px;
+}
+
+.event-card-img img {
+  max-width: 100%;
+  padding-top: 15px;
+}
+
+.event-card-details h3 {
+  font-size: 18px !important;
+}
+
+.event-card-details p {
+  font-size: 16px !important;
+}
+
+.mapIcon {
+  padding-left: 3px;
+}
+
+.card-icon {
+  margin-right: 10px;
+}
+
+.event-nav ul li.active {
+  border-left: 6px solid tomato;
+}
+
+.event-nav ul li {
+  transition: .5s;
+}
+
+.event-nav ul>li:hover {
+  border-left: 6px solid tomato;
+}
+
+.event-nav ul li {
+  border-left: 6px solid transparent;
+}
+
+.event-card-details .card-navbar {}
+
+.event-card-details .card-navbar span {
+  padding: 6px 15px;
+  background: #d5d6aa;
+  border-radius: 30px;
+  text-transform: capitalize;
+  color: #080808;
+  font-size: 14px;
+}
+
+.event-card-details .card-navbar p {
+  display: inline-block;
+  font-size: 17px !important;
+}
+
+.event-card-details .card-footer {}
+
+.card-footer-btn {
+  display: block;
+  width: 70px;
+  text-align: center;
+  line-height: 18px;
+  font-size: 14px;
+  float: right;
+  text-transform: uppercase;
+  margin-top: 6px;
+}
